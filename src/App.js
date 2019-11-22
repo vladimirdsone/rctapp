@@ -1,7 +1,7 @@
 import React from 'react';
 import Info from "./components/info";
 import Form from "./components/form";
-import Weather from "./components/weather";
+import Movies from "./components/movies";
 
 const API_KEY = "7f016ba1";
 
@@ -52,8 +52,8 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Info />
-        <Form weatherMethod={this.gettingWeather} />
-        <Weather
+        <Form moviesMethod={this.gettingMovies} />
+        <Movies
           title={this.state.title}
           year={this.state.year}
           genre={this.state.genre}
