@@ -16,7 +16,7 @@ class App extends React.Component {
     error: undefined
   }
 
-  gettingWeather = async (e) => {
+  gettingMovies = async (e) => {
     e.preventDefault();
     const title = e.target.elements.title.value;
     

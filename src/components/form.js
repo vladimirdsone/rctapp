@@ -1,7 +1,7 @@
 import React from "react";
 
 const Form = props => (
-    <form onSubmit={props.weatherMethod}>
+    <form onSubmit={props.moviesMethod}>
         <input type="text" name="title" placeholder="название фильма"/>
         <button>Информация</button>
     </form>
