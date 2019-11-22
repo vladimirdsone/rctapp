@@ -1,0 +1,14 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "A react boiler plate",
+  "main": "src/index.js",
+  "author": "Adeel Imran",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write src/**/*.js"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
