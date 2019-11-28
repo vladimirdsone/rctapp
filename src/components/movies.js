@@ -1,6 +1,6 @@
 import React from "react";
 
-const Weather = props => (
+const Movies = props => (
     <div>
         { props.title &&
         <div>  
@@ -14,4 +14,4 @@ const Weather = props => (
         <p>{ props.error}</p>
     </div>   
 );
-export default Weather;
+export default Movies;
